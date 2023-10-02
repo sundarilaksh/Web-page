@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="webcss.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+            rel="stylesheet">
+
+        <title>MY PROFILE</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Sundari Lakshmanan</h1>
+        </header>
+        <div class="container">
+            <div class="box school-box" id="school-box"
+                onclick="toggleContent('school-content')">
+
+                <p id="school-content" class="hidden"><b>In school, I
+                        learned a lot
+                        of things.
+                        I owe a lot of appreciation to my teachers for their
+                        thoughtfulness and persistence while teaching us.
+                        Kendriya Vidyalaya Minambakkam in Chennai was where
+                        I
+                        attended school.</b>
+                </p>
+            </div>
+
+            <div class="box college-box" id="college-box"
+                onclick="toggleContent('college-content')">
+
+                <p id="college-content" class="hidden"><b>One of the most
+                        fantastic
+                        and enjoyable times in a person's life is their time
+                        in
+                        college.
+                        Since college life differs from school life in that
+                        way, it
+                        is necessary to acquire this experience in one's
+                        life.
+                        We achieve a longtime desire by being exposed to
+                        entirely
+                        new experiences while in college. "College life"
+                        might mean
+                        different things to different people.
+                        I completed my undergraduate work at Sri Sairam
+                        Engineering
+                        College in Chennai.
+                    </b>
+                </p>
+            </div>
+
+            <div class="box family-box" id="family-box"
+                onclick="toggleContent('family-content')">
+
+                <p id="family-content" class="hidden"><b>We are a family of
+                        four.
+                        My father works for the government, my mother stays
+                        at home,
+                        and my brother is in high school.
+                        My mother works long hours for the family all day
+                        long. She
+                        cooks excellent meals for us.
+                        My brother,father and I like the food mom makes.
+                        My father is a strong and wise man. He is incredibly
+                        motivating.
+                        In whatever I do, he offers me advice and assists me
+                        in
+                        making the best decisions.
+                        I sincerely value his counsel.</b></p>
+            </div>
+
+            <div class="box hobbies-box" id="hobbies-box"
+                onclick="toggleContent('hobbies-content')">
+
+                <p id="hobbies-content" class="hidden"><b>I consider my
+                        family to
+                        be the most significant thing in the world,
+                        therefore relaxing, interacting, and socializing
+                        with them
+                        are how I love to spend my leisure time.
+                        Even if it seems cliche, I spend practically all of
+                        my
+                        leisure time with my family because being with my
+                        parents
+                        and brother makes me really happy.</b>
+                </p>
+            </div>
+
+            <div class="box achievements-box" id="achievements-box"
+                onclick="toggleContent('Achievement-content')">
+                <p id="Achievement-content" class="hidden"><b>I've participated
+                        in the SIH(Smart India Hackthon ) Grand Finale
+                        2023-Hardware Edition.</b></p>
+            </div>
+            <div class="box vision-box" id="Vision-box"
+                onclick="toggleContent('Vision-content')">
+                <p id="Vision-content" class="hidden"><b>“Don't take rest after
+                        your first victory because if you fail in second, more
+                        lips are waiting to say that your first victory was just
+                        luck.”</b></p>
+            </div>
+        </div>
+        <iframe src="chat_bot.html" frameborder="0" id="chatbot-iframe"></iframe>
+        <a href="#" id="chatbot-icon">
+            <img src="./images/bot.jfif" alt="Chatbot" class="chatbot-icon">
+        </a>
+
+        <div class="contact-tab">
+            <a href="mailto:sundarilakshmanan01@gmail.com">
+                <img src="./images/email.png" alt="Email"
+                    class="contact-icon">
+            </a>
+            <a href="https://www.instagram.com/sundari_laksh/"
+                target="_blank">
+                <img src="./images/insta.png" alt="Instagram"
+                    class="contact-icon">
+            </a>
+            <a href="https://in.linkedin.com/in/sundari-l-70566a1ab"
+                target="_blank">
+                <img src="./images/linkedin.png" alt="LinkedIn"
+                    class="contact-icon">
+            </a>
+        </div>
+        <a href="#" id="contact-icon">
+            <img src="./images/logout.jfif" alt="Logout" class="logout-icon">
+
+            <script src="script.js"></script>
+
+        </body>
+    </html>

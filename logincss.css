@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8c65f7;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/login\ image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    background-color: #5e6df8;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    /* Adjust this value to move the boxes to the left */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    nav-right: auto;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#logout {
+    display: none;
+}
+
+.col-sm-4 {
+    text-align: center;
+    right: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.small-label {
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    right: 40px;
+}
+
+.register-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Shift the response box to the left for the login form */
+.login_form .response-box {
+    text-align: left;
+    /* Align the text to the left */
+    left: 50;
+    /* Adjust the left margin */
+    right: 60px;
+}
+
+/* Shift the response box to the left for the registration form */
+.registration_form .response-box {
+    text-align: left;
+    /* Align the text to the left */
+    margin-left: 0;
+    /* Adjust the left margin */
+}
+
